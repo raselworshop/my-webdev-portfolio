@@ -8,6 +8,9 @@
     "wdth" 100;
 }
 /* shared styles */
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color: #FFF8F3;
 }
@@ -94,10 +97,14 @@ main{
     max-width: 1140px;
     margin: o auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* styles for about */
 .about{
     border-radius: 10px;
-    padding: 130px 180px;
+    padding: 130px 150px;
     text-align: center;
     margin-top: 130;
 }
@@ -107,4 +114,18 @@ main{
 }
 .item-desc{
     font-weight: 600;
+}
+/* style for what I can do */
+.section-desc{
+   
+    margin: 0 auto;
+}
+/* style for skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 black;
 }
